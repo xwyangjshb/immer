@@ -1,0 +1,133 @@
+[0m[[0minfo[0m] [0mSet current project to immer-bechmarks (in build file:/home/raskolnikov/dev/immer/tools/scala/)[0m
+[0m[[0minfo[0m] [0m::Benchmark push.Vector::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.14308[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m::Benchmark push.RRBVector::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.173041[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m::Benchmark update.Vector::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.13664[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m::Benchmark update.RRBVector::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.138961[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m::Benchmark update/random.Vector::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.180985[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m::Benchmark update/random.RRBVector::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.248365[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m::Benchmark iter/reduce.Vector::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.196154[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m::Benchmark iter/reduce.RRBVector::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.191394[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m::Benchmark iter/idx.Vector::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.094375[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m::Benchmark iter/idx.RRBVector::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.095004[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m::Benchmark iter/idx.Vector::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.173681[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m::Benchmark iter/idx.RRBVector::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.178778[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m::Benchmark concat.RRBVector ++::[0m
+[0m[[0minfo[0m] [0mcores: 4[0m
+[0m[[0minfo[0m] [0mhostname: nexus9[0m
+[0m[[0minfo[0m] [0mname: OpenJDK 64-Bit Server VM[0m
+[0m[[0minfo[0m] [0mosArch: amd64[0m
+[0m[[0minfo[0m] [0mosName: Linux[0m
+[0m[[0minfo[0m] [0mvendor: Oracle Corporation[0m
+[0m[[0minfo[0m] [0mversion: 25.121-b13[0m
+[0m[[0minfo[0m] [0mParameters(size -> 1000): 0.170482[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mPassed: Total 0, Failed 0, Errors 0, Passed 0[0m
+[0m[[32msuccess[0m] [0mTotal time: 111 s, completed 24-Feb-2017 18:07:58[0m

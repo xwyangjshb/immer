@@ -1,0 +1,280 @@
+
+==== vector
+
+---- iter
+Evaluation count : 2087800 in 100 samples of 20878 calls.
+             Execution time mean : 48.081240 µs
+    Execution time std-deviation : 386.839961 ns
+   Execution time lower quantile : 47.602346 µs ( 2.5%)
+   Execution time upper quantile : 48.958413 µs (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 3 outliers in 100 samples (3.0000 %)
+	low-severe	 3 (3.0000 %)
+ Variance from outliers : 0.9900 % Variance is unaffected by outliers
+
+---- update!
+Evaluation count : 964700 in 100 samples of 9647 calls.
+             Execution time mean : 103.534841 µs
+    Execution time std-deviation : 1.579926 µs
+   Execution time lower quantile : 102.519812 µs ( 2.5%)
+   Execution time upper quantile : 106.655284 µs (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 4 outliers in 100 samples (4.0000 %)
+	low-severe	 4 (4.0000 %)
+ Variance from outliers : 8.4565 % Variance is slightly inflated by outliers
+
+---- push!
+Evaluation count : 1525500 in 100 samples of 15255 calls.
+             Execution time mean : 66.046559 µs
+    Execution time std-deviation : 429.927885 ns
+   Execution time lower quantile : 65.463356 µs ( 2.5%)
+   Execution time upper quantile : 66.980278 µs (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 3 outliers in 100 samples (3.0000 %)
+	low-severe	 1 (1.0000 %)
+	low-mild	 2 (2.0000 %)
+ Variance from outliers : 0.9900 % Variance is unaffected by outliers
+
+---- update
+Evaluation count : 277400 in 100 samples of 2774 calls.
+             Execution time mean : 360.263416 µs
+    Execution time std-deviation : 2.112316 µs
+   Execution time lower quantile : 357.470574 µs ( 2.5%)
+   Execution time upper quantile : 366.801203 µs (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 5 outliers in 100 samples (5.0000 %)
+	low-severe	 4 (4.0000 %)
+	low-mild	 1 (1.0000 %)
+ Variance from outliers : 0.9900 % Variance is unaffected by outliers
+
+---- push
+Evaluation count : 909000 in 100 samples of 9090 calls.
+             Execution time mean : 110.964041 µs
+    Execution time std-deviation : 2.473528 µs
+   Execution time lower quantile : 109.750561 µs ( 2.5%)
+   Execution time upper quantile : 115.346944 µs (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 4 outliers in 100 samples (4.0000 %)
+	low-severe	 4 (4.0000 %)
+ Variance from outliers : 15.1950 % Variance is moderately inflated by outliers
+
+==== rrb-vector
+
+---- iter
+Evaluation count : 742100 in 100 samples of 7421 calls.
+             Execution time mean : 132.006205 µs
+    Execution time std-deviation : 773.033680 ns
+   Execution time lower quantile : 131.269767 µs ( 2.5%)
+   Execution time upper quantile : 132.787609 µs (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 2 outliers in 100 samples (2.0000 %)
+	low-severe	 2 (2.0000 %)
+ Variance from outliers : 0.9900 % Variance is unaffected by outliers
+
+---- update!
+Evaluation count : 392500 in 100 samples of 3925 calls.
+             Execution time mean : 255.161863 µs
+    Execution time std-deviation : 1.389995 µs
+   Execution time lower quantile : 253.340251 µs ( 2.5%)
+   Execution time upper quantile : 257.777899 µs (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 3 outliers in 100 samples (3.0000 %)
+	low-severe	 1 (1.0000 %)
+	low-mild	 2 (2.0000 %)
+ Variance from outliers : 0.9900 % Variance is unaffected by outliers
+
+---- push!
+Evaluation count : 1233000 in 100 samples of 12330 calls.
+             Execution time mean : 81.343752 µs
+    Execution time std-deviation : 665.097669 ns
+   Execution time lower quantile : 80.503625 µs ( 2.5%)
+   Execution time upper quantile : 82.358024 µs (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 2 outliers in 100 samples (2.0000 %)
+	low-severe	 2 (2.0000 %)
+ Variance from outliers : 0.9900 % Variance is unaffected by outliers
+
+---- update
+Evaluation count : 181500 in 100 samples of 1815 calls.
+             Execution time mean : 554.000285 µs
+    Execution time std-deviation : 4.338736 µs
+   Execution time lower quantile : 548.963260 µs ( 2.5%)
+   Execution time upper quantile : 559.274352 µs (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 2 outliers in 100 samples (2.0000 %)
+	low-severe	 2 (2.0000 %)
+ Variance from outliers : 0.9900 % Variance is unaffected by outliers
+
+---- push
+Evaluation count : 415100 in 100 samples of 4151 calls.
+             Execution time mean : 241.779929 µs
+    Execution time std-deviation : 1.344558 µs
+   Execution time lower quantile : 239.690383 µs ( 2.5%)
+   Execution time upper quantile : 244.561267 µs (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 3 outliers in 100 samples (3.0000 %)
+	low-severe	 2 (2.0000 %)
+	low-mild	 1 (1.0000 %)
+ Variance from outliers : 0.9900 % Variance is unaffected by outliers
+
+---- iter/f
+Evaluation count : 265000 in 100 samples of 2650 calls.
+             Execution time mean : 376.436302 µs
+    Execution time std-deviation : 2.915609 µs
+   Execution time lower quantile : 373.107005 µs ( 2.5%)
+   Execution time upper quantile : 380.452888 µs (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 4 outliers in 100 samples (4.0000 %)
+	low-severe	 1 (1.0000 %)
+	low-mild	 2 (2.0000 %)
+	high-mild	 1 (1.0000 %)
+ Variance from outliers : 0.9900 % Variance is unaffected by outliers
+
+---- update/f
+Evaluation count : 98100 in 100 samples of 981 calls.
+             Execution time mean : 1.024201 ms
+    Execution time std-deviation : 5.614933 µs
+   Execution time lower quantile : 1.015336 ms ( 2.5%)
+   Execution time upper quantile : 1.033376 ms (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 2 outliers in 100 samples (2.0000 %)
+	low-severe	 1 (1.0000 %)
+	low-mild	 1 (1.0000 %)
+ Variance from outliers : 0.9900 % Variance is unaffected by outliers
+
+---- concat
+Evaluation count : 180 in 60 samples of 3 calls.
+             Execution time mean : 351.938374 ms
+    Execution time std-deviation : 2.319121 ms
+   Execution time lower quantile : 349.413940 ms ( 2.5%)
+   Execution time upper quantile : 358.488245 ms (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 2 outliers in 60 samples (3.3333 %)
+	low-severe	 2 (3.3333 %)
+ Variance from outliers : 1.6389 % Variance is slightly inflated by outliers
+
+==== vector
+
+---- iter
+Evaluation count : 3800 in 20 samples of 190 calls.
+             Execution time mean : 5.276973 ms
+    Execution time std-deviation : 27.022700 µs
+   Execution time lower quantile : 5.230742 ms ( 2.5%)
+   Execution time upper quantile : 5.319129 ms (97.5%)
+                   Overhead used : 11.842662 ns
+
+---- update!
+Evaluation count : 1440 in 20 samples of 72 calls.
+             Execution time mean : 14.439527 ms
+    Execution time std-deviation : 1.203315 ms
+   Execution time lower quantile : 13.905147 ms ( 2.5%)
+   Execution time upper quantile : 17.074120 ms (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 4 outliers in 20 samples (20.0000 %)
+	low-severe	 1 (5.0000 %)
+	low-mild	 3 (15.0000 %)
+ Variance from outliers : 33.6219 % Variance is moderately inflated by outliers
+
+---- push!
+Evaluation count : 3020 in 20 samples of 151 calls.
+             Execution time mean : 6.638531 ms
+    Execution time std-deviation : 22.552068 µs
+   Execution time lower quantile : 6.608564 ms ( 2.5%)
+   Execution time upper quantile : 6.675891 ms (97.5%)
+                   Overhead used : 11.842662 ns
+
+---- update
+Evaluation count : 340 in 20 samples of 17 calls.
+             Execution time mean : 62.185041 ms
+    Execution time std-deviation : 201.955079 µs
+   Execution time lower quantile : 61.792805 ms ( 2.5%)
+   Execution time upper quantile : 62.562849 ms (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 1 outliers in 20 samples (5.0000 %)
+	low-severe	 1 (5.0000 %)
+ Variance from outliers : 4.7500 % Variance is slightly inflated by outliers
+
+---- push
+Evaluation count : 1660 in 20 samples of 83 calls.
+             Execution time mean : 12.328627 ms
+    Execution time std-deviation : 247.781946 µs
+   Execution time lower quantile : 12.170582 ms ( 2.5%)
+   Execution time upper quantile : 12.804275 ms (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 2 outliers in 20 samples (10.0000 %)
+	low-severe	 2 (10.0000 %)
+ Variance from outliers : 4.7500 % Variance is slightly inflated by outliers
+
+==== rrb-vector
+
+---- iter
+Evaluation count : 1140 in 20 samples of 57 calls.
+             Execution time mean : 17.897811 ms
+    Execution time std-deviation : 83.963410 µs
+   Execution time lower quantile : 17.782383 ms ( 2.5%)
+   Execution time upper quantile : 18.042414 ms (97.5%)
+                   Overhead used : 11.842662 ns
+
+---- update!
+Evaluation count : 620 in 20 samples of 31 calls.
+             Execution time mean : 32.692940 ms
+    Execution time std-deviation : 319.884162 µs
+   Execution time lower quantile : 32.431581 ms ( 2.5%)
+   Execution time upper quantile : 33.409792 ms (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 1 outliers in 20 samples (5.0000 %)
+	low-severe	 1 (5.0000 %)
+ Variance from outliers : 4.7500 % Variance is slightly inflated by outliers
+
+---- push!
+Evaluation count : 2460 in 20 samples of 123 calls.
+             Execution time mean : 8.223831 ms
+    Execution time std-deviation : 47.742048 µs
+   Execution time lower quantile : 8.168374 ms ( 2.5%)
+   Execution time upper quantile : 8.330573 ms (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 1 outliers in 20 samples (5.0000 %)
+	low-severe	 1 (5.0000 %)
+ Variance from outliers : 4.7500 % Variance is slightly inflated by outliers
+
+---- update
+Evaluation count : 240 in 20 samples of 12 calls.
+             Execution time mean : 90.666110 ms
+    Execution time std-deviation : 238.414842 µs
+   Execution time lower quantile : 90.267020 ms ( 2.5%)
+   Execution time upper quantile : 91.035003 ms (97.5%)
+                   Overhead used : 11.842662 ns
+
+Found 2 outliers in 20 samples (10.0000 %)
+	low-severe	 2 (10.0000 %)
+ Variance from outliers : 4.7500 % Variance is slightly inflated by outliers
+
+---- push
+Evaluation count : 800 in 20 samples of 40 calls.
+             Execution time mean : 25.237144 ms
+    Execution time std-deviation : 74.612288 µs
+   Execution time lower quantile : 25.121709 ms ( 2.5%)
+   Execution time upper quantile : 25.385745 ms (97.5%)
+                   Overhead used : 11.842662 ns
+
+---- skipping relaxed test 'cuz N > 1000 (rrb-vector bug)
+
+---- concat
